@@ -29,7 +29,7 @@ ${code}
 
 Simulate the STDOUT.`;
 
-    const response = await fetch(`https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/moonshotai/kimi-k2.7-code`, {
+    const response = await fetch(`https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/qwen/qwen3.8-27b`, {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${apiToken}`,
